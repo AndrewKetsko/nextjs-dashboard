@@ -8,8 +8,8 @@ import { redirect } from "next/navigation";
 export type State = {
   errors?: {
     customerId?: string[];
-    amount: string[];
-    status: string[];
+    amount?: string[];
+    status?: string[];
   };
   message?: string | null;
 };
